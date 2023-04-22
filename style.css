@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.main {
+  height: 100vh;
+  background: linear-gradient(1deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/bg-main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__heading {
+  max-width: 788px;
+  padding-top: 18%;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.main__text {
+  margin-top: 32px;
+  color: #FFFFFF;
+  max-width: 482px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.main__text-bold {
+  font-weight: 700;
+}
+
+.main__button {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 44px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 13px 74px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 235px;
+}
+
+.main__button:hover {
+  background: #EB443F;
+  cursor: pointer;
+}
+
+.games {
+  background: #000915;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.games__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 380px;
+  height: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  border-radius: 22px;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.games__item-game1 {
+  background-image: url(img/game1.jpg);
+}
+
+.games__item-game2 {
+  background-image: url(img/game2.jpg);
+}
+
+.games__item-game3 {
+  background-image: url(img/game3.jpg);
+}
+
+.games__item:hover {
+  border: 3px solid #44D2FF;
+  padding-left: 29px;
+  padding-bottom: 29px;
+}
+/*# sourceMappingURL=style.css.map */
