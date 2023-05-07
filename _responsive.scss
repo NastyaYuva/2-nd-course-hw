@@ -1,0 +1,53 @@
+@media (max-width: 767px) {
+    .main {
+        background: linear-gradient(1deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/bg-main-mobile.jpg);
+        display: flex;
+        &__content {
+            align-items: center;
+            justify-content: center;
+            padding-top: 0;
+            text-align: center;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+            padding-top: 0;
+        }
+
+        &__text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__button {
+            margin-top: 0;
+        }
+    }
+.game {
+    flex-direction: column;
+    padding-top: 51px;
+    padding-bottom: 85px;
+    &__content-image img {
+        max-width: 100%;
+        padding-top: 64px;
+    }
+}
+.reverse {
+    flex-direction: column-reverse;
+}
+
+
+}
+
+@media (max-width: 1200px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .games {
+        justify-content: center;
+    }
+
+}

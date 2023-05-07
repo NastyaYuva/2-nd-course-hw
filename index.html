@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework1</title>
+    <title>Игры</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -16,13 +16,15 @@
 <body>
     <section>
         <div class="main center">
+            <div class="main__content">
             <h1 class="main__heading">
                 Добро пожаловать<br> на мой сайт!
             </h1>
             <p class="main__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
                     class="main__text-bold">поехали</span> и <span class="main__text-bold">приступай</span></p>
-            <button class="main__button">Поехали!</button>
+            <button class="button main__button">Поехали!</button>
         </div>
+    </div>
     </section>
     <div class="games center">
         <a href="#" class="games__item games__item-game1">
@@ -41,6 +43,49 @@
             </div>
         </a>
     </div>
+
+        <section>
+            <div class="game center">
+                <div class="main__content game__content">
+                    <h2 class="main__heading game__heading">Времена года!</h2>
+                    <p class="game__content-text main__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени
+                        года он относится</p>
+                    <button class="button">Играть!</button>
+                </div>
+                <div class="game__content-image">
+                    <img src="img/gameBlock1.svg" alt="game1">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="game reverse center">
+                <div class="game__content-image">
+                    <img src="img/gameBlock2.svg" alt="game1">
+                </div>
+            <div class="main__content game__content">
+                <h2 class="main__heading game__heading">Запомни слова</h2>
+                <p class="game__content-text main__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+                <button class="button">Играть!</button>
+                </div>
+               
+            </div>
+            </section>
+            <section>
+                <div class="game center arcana">
+                  
+                <div class="game__content main__content main__content-center">
+                    <h2 class="main__heading game__heading arcana">Игра в загадки</h2>
+                    <p class="game__content-text arcana main__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+                    <button class="button button-center">Играть!</button>
+                    </div>
+                </div>
+                </section>
+                <footer>
+                    <div class="footer">
+                    <p class="footer__text">Все права защищены</p>
+                </div>
+                </footer>
+
 </body>
 
 </html>
