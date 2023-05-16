@@ -13,30 +13,50 @@
 // console.log(numbers(14, 21));
 
 
-// // Задание 2
+//  Задание 2
 // let question = Number(prompt('Введите число'));
 
-// const evenNumbers = (question) => question % 2 == 0 ? console.log('Число четное') : isNaN(question) ? console.log('Вы ввели не число') : console.log('Число нечетное');
+// const evenNumbers = (question) => {
+//     if (question % 2 == 0) {
+//         console.log('Число четное');
+        
+//     } else if (isNaN(question)) {
+//         console.log('Вы ввели не число');
+        
+//     } else {
+//         console.log('Число нечетное');
+//     }
+// }
+
 
 // evenNumbers(question);
 
-// // Задание 3
-// // Задание 3.1
+// Задание 3
+//  Задание 3.1
 // const squareNumber = (number) => console.log(number**2);
 
 // squareNumber(27);
 
-// // Задание 3.2
+// Задание 3.2
 // function returnSquareNumber(number) {
 //     return number**2;
 // }
 // console.log(returnSquareNumber(22));
 
-// // Задание 4
+//  Задание 4
 // let userAnswer = Number(prompt('Сколько вам лет?'));
-// const age = (userAnswer) => isNaN(userAnswer) || userAnswer < 0 ? console.log('Вы ввели неправильное значение') : userAnswer >= 0 && userAnswer <= 12 ? console.log('Привет, друг!') : console.log('Добро пожаловать!');
-
-// age(userAnswer);
+// const age = (userAnswer) => {
+//     if (isNaN(userAnswer) || userAnswer < 0) {
+//         console.log('Вы ввели неправильное значение');
+        
+//     } else if (userAnswer >= 0 && userAnswer <= 12) {
+//         console.log('Привет, друг!');
+//     } else {
+//         console.log('Добро пожаловать!');
+//     }
+// }
+   
+//  age(userAnswer);
 
 // // Задание 5
 // const correctNumbers = (a, b) => {
