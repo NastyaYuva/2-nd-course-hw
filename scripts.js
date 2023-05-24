@@ -17,3 +17,23 @@ function gameOne() {
             }
             seasons(numberSeasons);
             }
+
+            
+ function gameTwo() {
+   let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+   let shuffle = arr.sort(() => Math.random() - 0.5);
+   alert(shuffle.join(', '));
+
+let userFirstAnswer = prompt('Чему равнялся первй элеимент массива?');
+let userSecondAnswer = prompt('Чему равнялся послденый элеимент массива?');
+
+if (userFirstAnswer.toLowerCase() === shuffle[0].toLowerCase() && userSecondAnswer.toLowerCase() === shuffle[shuffle.length - 1].toLowerCase()) {
+    console.log('Поздравялем. Вы угадали!');
+    
+} else if (userFirstAnswer.toLowerCase() === shuffle[0].toLowerCase() || userSecondAnswer.toLowerCase() === shuffle[shuffle.length - 1].toLowerCase()) {
+    console.log('Вы были близки к победе!');
+ 
+} else {
+    console.log('Вы ничего не запомнили, попробуйте еще раз');
+}
+ }      
